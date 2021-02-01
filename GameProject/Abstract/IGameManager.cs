@@ -7,8 +7,6 @@ namespace GameProject.Abstract
 {
     public interface IGameManager
     {
-        void Sell(Gamer gamer, Game game);
-
         void Add(Game game);
     }
 

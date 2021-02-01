@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GameProject.Entities
+namespace GameProject.Abstract
 {
-    public class Campaign
+    public abstract class BaseCampaign
     {
         public int Id { get; set; }
 
-        public String Name { get; set; }
+        public virtual String Name { get; set; }
+
 
     }
 }

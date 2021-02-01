@@ -13,11 +13,6 @@ namespace GameProject.Concrete
             Console.WriteLine(game.GameName + " added!");
         }
 
-        public void Sell(Gamer gamer, Game game)
-        {
-            Console.WriteLine(game.GameName + " was selled to " + gamer.FirstName);
-        }
-
 
     }
 }
